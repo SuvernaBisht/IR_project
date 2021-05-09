@@ -8,6 +8,7 @@ Depression is major cause of many disease and there are majority of people(70%) 
 
 ## Dataset
 
+The dataset is taken from the [1]. We are using a subset of this dataset. It consists of social media details about the users such as social network features, profile details, visual features, emotion features, topic level features, domain and user specific features. The dataset has been divided into negative and positive data on the basis of whether the user was found to be positive or negative for depression. We extract and combine all the tweets posted by the users and then divide the tweets in sets of 20.
 
 ## Getting Started
 
@@ -63,17 +64,6 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Pramil Panjawani** 
@@ -82,9 +72,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **Apratim Ankit**
 * **Suverna Bisht**
 
-## Acknowledgments
+## References
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+[1] Coppersmith G., Dredze M., and Harman C.(2014, May) Quantifying mental health signals in
+twitter. In The Workshop on Computational Linguistics and Clinical Psychology: From Linguistic Signal To Clinical Reality, pages 51–60
